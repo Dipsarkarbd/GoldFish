@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Links -->
+
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Google Fonts Links -->
+
+
+     <!-- Font Awesome Cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <!-- Font Awesome Cdn -->
+</head>
+<body>
+
+
+
+
+
+
+   <!-- Navbar Start -->
+   <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" id="logo"><span>Gold</span>Fish</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+           
+           
+              
+            
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+   <!-- Navbar End -->
+    
+ 
+ 
+
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To Bangladesh</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>Don’t see anything that is quite right? Not a problem !!! Apart from Dhaka City Tour and Package Tours in various locations in Bangladesh, We can always put together a tailor-made tour to suit your personal travel style and interests.</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div>
+
+
+    
+
+
+    
+    <section class="book" id="book"> 
+      <div class="book-img">
+         <img src="./images/book-img.png" alt="">
+      </div>
+      <div class="book-form">
+         <form action="">
+            <input type="text" placeholder="Where To" required>
+            <input type="text" placeholder="How Many" required>
+            <input type="date" placeholder="Arrivals" required>
+            <input type="date" placeholder="Leaving" required>
+            <textarea name="" id="" cols="5" rows="5" placeholder="Enter Your Name & Details" required></textarea>
+            <input type="submit" value="Book Now" class="submit" required>
+            
+         </form>
+      </div>
+   </section>
+
+
+
+
+
+
+   <!-- Packages Start -->
+   <section class="packages" id="packages">
+      <div class="container">
+         <div class="main-txt">
+            <h1><span>P</span>ACKAGES</h1>
+         </div>
+         
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/tger.jpg" alt="">
+                  <div class="card-body">
+                     <h3>Sundarbans</h3>
+                     <p>Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. Sundarban Reserve Forest of Bangladesh is the largest mangrove forest in the world.</p>
+                     <div class="start">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                     </div>
+                     <h6>Price: <strong>৳5,000</strong></h6>
+                     <a href="#book">Book Now</a>
+                     <a href="#33","_self"> More details </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Chittagong.jpg" alt="">
+                  <div class="card-body">
+                     <h3>Chittagong Hill Tracks</h3>
+                     <p>The Chittagong Hill Tracts, often shortened to simply the Hill Tracts and abbreviated to CHT, are group of districts within the Chittagong Division in southeastern Bangladesh, bordering India and Myanmar.</p>
+                     <div class="start">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                     </div>
+                     <h6>Price: <strong>৳5,400</strong></h6>
+                     <a href="#book">Book Now</a>
+                     <a href="#33","_self"> More details </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Srimagal.jpg" alt="">
+                  <div class="card-body">
+                     <h3>Srimagal</h3>
+                     <p>Sreemangal is an upazila of Moulvibazar District in the Sylhet Division of Bangladesh. It is located at the southwest of the district, and borders the Habiganj District to the west and the Indian state of Tripura to the south.</p>
+                     <div class="start">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                     </div>
+                     <h6>Price: <strong>৳5,350</strong></h6>
+                     <a href="#book">Book Now</a>
+                     <a href="#33","_self"> More details </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Rangamati.jpg" alt="">
+                  <div class="card-body">
+                     <h3>Rangamati</h3>
+                     <p>Rangamati is the administrative headquarter and town of Rangamati Hill District in the Chittagong Hill Tracts.The town is located at 22°37'60N 92°12'0E and has an altitude of 14 metres.From Chittagong a 77 kilometres road leads to Rangamati.The township is located on bank of the Kaptai lake.</p>
+                     <div class="start">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                     </div>
+                     <h6>Price: <strong>৳5,400</strong></h6>
+                     <a href="#book">Book Now</a>
+                     <a href="#33","_self"> More details </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Lalbagh Fort.jpg" alt="">
+                  <div class="card-body">
+                     <h3>Lalbagh Fort</h3>
+                     <p>Lalbagh Fort is a fort in the old city of Dhaka,Bangladesh.Its name is derived from its neighborhood Lalbagh,which means Red Garden.The term Lalbagh refers to reddish and pinkish architecture from the Mughal period.The original fort was called Fort Aurangabad.</p>
+                     <div class="start">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                     </div>
+                     <h6>Price: <strong>৳5,900</strong></h6>
+                     <a href="#book">Book Now</a>
+                     <a href="#33","_self"> More details </a>
+
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Sajek Valley.jpg" alt="">
+                  <div class="card-body">
+                     <h3>Sajek Valley</h3>
+                     <p>Sajek Valley is one of the most popular tourist spots in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District. The valley is 2,000 feet above sea level. Sajek Valley is known as the Queen of Hills & Roof of Rangamati.</p>
+                     <div class="start">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star "></i>
+                     </div>
+                     <h6>Price: <strong>$500</strong></h6>
+                     <a href="#book">Book Now</a>
+                     <a href="#33","_self"> More details </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="images/National Martyrs' Monument.jpg" alt="">
+                     <div class="card-body">
+                        <h3>National Martyrs' Monument</h3>
+                        <p>The National Martyrs' Memorial is the national monument of Bangladesh, built to honour and remember those who died during the War of Liberation and Genocide in 1971, which resulted in Bangladesh's independence.</p>
+                        <div class="start">
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>৳5,000</strong></h6>
+                        <a href="#book">Book Now</a>
+                        <a href="#33","_self"> More details </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="images/Liberation War Museum.jpg" alt="">
+                     <div class="card-body">
+                        <h3>Liberation War Museum</h3>
+                        <p>The Liberation War Museum is a museum at Agargaon in Dhaka, the capital of Bangladesh, which commemorates the Bangladesh Liberation War that led to the independence of Bangladesh from Pakistan.</p>
+                        <div class="start">
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>৳5,400</strong></h6>
+                        <a href="#book">Book Now</a>
+                        <a href="#33","_self"> More details </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="images/Sonargaon.jpg" alt="">
+                     <div class="card-body">
+                        <h3>Sonargaon</h3>
+                        <p>Sonargaon is a historic city in central Bangladesh. It corresponds to the Sonargaon Upazila of Narayanganj District in Dhaka Division. Sonargaon is one of the old capitals of the historic region of Bengal and was an administrative center of eastern Bengal.</p>
+                        <div class="start">
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>৳5,350</strong></h6>
+                        <a href="#book">Book Now</a>
+                        <a href="#33","_self"> More details </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="images/Cox's Bazar.jpg" alt="">
+                     <div class="card-body">
+                        <h3>Cox's Bazar</h3>
+                        <p>Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist.</p>
+                        <div class="start">
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>৳5,000</strong></h6>
+                        <a href="#book">Book Now</a>
+                        <a href="#33","_self"> More details </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="images/Bangladesh National Museum.jpg" alt="">
+                     <div class="card-body">
+                        <h3>Bangladesh National Museum</h3>
+                        <p>The Bangladesh National Museum, is the national museum of Bangladesh. The museum is well organized and displays have been housed chronologically in several departments like department of ethnography</p>
+                        <div class="start">
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>৳5,400</strong></h6>
+                        <a href="#book">Book Now</a>
+                        <a href="#33","_self"> More details </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-4 py-3 py-md-0">
+                  <div class="card">
+                     <img src="images/Bandarban.jpg" alt="">
+                     <div class="card-body">
+                        <h3>Bandarban</h3>
+                        <p>Bandarban is one of the best places to visit in Bangladesh, renowned for its exquisite greenery and exotic waterfalls. It gives a feeling of serenity to the visitors with its beautiful lake and breathtaking landscapes.The largest Buddhist Temple is also situated in the Bandarban district.</p>
+                        <div class="start">
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star checked"></i>
+                           <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>Price: <strong>৳5,350</strong></h6>
+                        <a href="#book">Book Now</a>
+                        <a href="#33","_self"> More details </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+
+         </div>
+      </div>
+   </section>
+   <!-- Packages End -->
+
+
+
+
+   <!-- Services Start -->
+   <section class="services" id="services">
+    <div class="container">
+      <div class="main-txt" style="padding-top: 10px;">
+        <h1><span>S</span>ervices</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <i class="fas fa-hotel"></i>
+            <div class="card-body text-center">
+            <h3>Affordable Hotels</h3>
+            <p>Find and book deals on the best cheap hotels in Bangladesh! Explore guest reviews and book the perfect cheap hotel for your trip.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <i class="fas fa-utensils"></i>
+            <div class="card-body text-center">
+              <h3>Food And Drinks</h3>
+            <p>Discover food and drink on Falcon.Aslo test the best cheap and traditional food in Bangladesh! Explore guest reviews and test the perfect test it.
+               </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <i class="fas fa-bullhorn"></i>
+            <div class="card-body text-center">
+              <h3>Safty Guide</h3>
+            <p>We are providing the best expert tourist guide, who will explain you about the places you visit and also ensure your safety.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <i class="fas fa-globe-asia"></i>
+            <div class="card-body text-center">
+              <h3>Around The World</h3>
+            <p>Don’t see anything that is quite right? Not a problem !!! Apart from Dhaka City Tour and Package Tours in various locations in Bangladesh.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <i class="fas fa-plane"></i>
+            <div class="card-body text-center">
+            <h3>Fastest Travel</h3>
+            <p>We are providing the best transport system, We also plan your route and provide best transport like AC car, Helicopter, Personal airplane.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <i class="fas fa-hiking"></i>
+            <div class="card-body text-center">
+            <h3>Adventures</h3>
+            <p>We search adventures in the area and create a plan for you. Don't worry it's 100% safe and risk free and tour guide will assist you all the time</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- Services End -->
+    
+
+
+
+
+   <!-- Gallary Start -->
+   <section class="gallary" id="gallary">
+      <div class="container">
+         <div class="main-txt">
+            <h1><span>G</span>allery</h1>
+         </div>
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Bandarban.jpg" alt=""  height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Bangladesh National Museum.jpg" alt="" height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Chittagong.jpg" alt=""  height="230px">
+               </div>
+            </div>
+         </div>
+
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Cox's Bazar.jpg" alt=""  height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Lalbagh Fort.jpg" alt="" height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Liberation War Museum.jpg" alt=""  height="230px">
+               </div>
+            </div>
+         </div>
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/National Martyrs' Monument.jpg" alt=""  height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Rangamati.jpg" alt="" height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Sajek Valley.jpg" alt=""  height="230px">
+               </div>
+            </div>
+         </div>
+
+         <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Sonargaon.jpg" alt=""  height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/Srimagal.jpg" alt="" height="230px">
+               </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+               <div class="card">
+                  <img src="images/tger.jpg" alt=""  height="230px">
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+   <!-- Gallary End -->
+
+
+
+
+
+   <!-- About Start -->
+   <section class="about" id="about">
+      <div class="container">
+         <div class="main-txt" style="padding-top: 30px;">
+            <h1>About <span>Us</span></h1>
+         </div>
+
+         <div class="row" style="margin-top: 50px;">
+
+            <div class="col-md-6 py-3 py-md-0">
+               <div class="card">
+                  <img src="./images/about-img.png" alt="">
+               </div>
+            </div>
+
+            <div class="col-md-6 py-3 py-md-0">
+               <h2>How We Work.</h2>
+               <p>We, Gold Fish, are a local tour operator in Bangladesh. We offer a wide variety of tour packages including the Dhaka City Tour. You may choose amongst half-day sightseeing, full-day tour at old Dhaka, multi-day tour, and Package Tours. As we are a locally owned tour operator company, we have personal ties to the families and communities outside Dhaka. This allows us to make arrangements for a homestay in a variety of beautiful locations throughout Bangladesh. </p>
+               <button id="about-btn">Read More...</button>
+            </div>
+
+         </div>
+      </div>
+   </section>
+   <!-- About End -->
+
+
+
+
+
+   <!-- Footer Start -->
+   <footer id="footer">
+      <h1><span>Gold</span>Fish</h1>
+      <p>One of the most visited travel websites in Bangladesh</p>
+      <div class="social-links">
+         <i class="fa-brands fa-twitter"></i>
+         <i class="fa-brands fa-facebook-f"></i>
+         <i class="fa-brands fa-instagram"></i>
+         <i class="fa-brands fa-youtube"></i>
+         <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      <div class="credite">
+         <p>Designed By <a href="#">GoldFish</a></p>
+      </div>
+      <div class="copyyright">
+         <p>&copy;Copyright Gold Fish.All Rights Reserved</p>
+      </div>
+   </footer>
+   <!-- Footer End -->
+   
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
